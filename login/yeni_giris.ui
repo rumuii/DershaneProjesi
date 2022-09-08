@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>331</width>
+    <height>442</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">
+border-radius:35px;
+background-color: qconicalgradient(cx:0.483051, cy:0.489, angle:0, stop:0 rgba(114, 90, 150, 221));
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(0,0,0,190);
+border-radius:50px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QFrame" name="frame_4">
+           <property name="styleSheet">
+            <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <item alignment="Qt::AlignRight|Qt::AlignTop">
+             <widget class="QPushButton" name="pushButton">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="d.qrc">
+                <normaloff>:/img/Hopstarter-Sleek-Xp-Basic-Close.ico</normaloff>:/img/Hopstarter-Sleek-Xp-Basic-Close.ico</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QLabel" name="mavi_dershanem">
+                <property name="font">
+                 <font>
+                  <family>MS Shell Dlg 2</family>
+                  <pointsize>15</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="layoutDirection">
+                 <enum>Qt::LeftToRight</enum>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgba(255,255,255,210);
+
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));</string>
+                </property>
+                <property name="text">
+                 <string>MAVİ DERSHANEM</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="margin">
+                 <number>10</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="hosgeldiniz">
+                <property name="font">
+                 <font>
+                  <family>MS Shell Dlg 2</family>
+                  <pointsize>15</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="layoutDirection">
+                 <enum>Qt::LeftToRight</enum>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color:rgba(255,255,255,210);
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));</string>
+                </property>
+                <property name="text">
+                 <string>HOŞGELDİNİZ!</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="margin">
+                 <number>10</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QPushButton" name="yonetici_girisi">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <italic>false</italic>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#yonetici_girisi{	
+   border-bottom:2px solid rgba(255,255,255,255);
+	color:rgba(255, 255, 255, 210);
+	border-radius:1px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));
+}
+#yonetici_girisi:hover{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(114, 90, 150, 221), stop:1 rgba(105, 118, 132, 226));
+}
+#yonetici_girisi:pressed{	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 200);
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>YÖNETİCİ GİRİŞİ</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="ogretmen_girisi">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <italic>false</italic>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#ogretmen_girisi{	
+   border-bottom:2px solid rgba(255,255,255,255);
+	color:rgba(255, 255, 255, 210);
+	border-radius:1px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));
+}
+#ogretmen_girisi:hover{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(114, 90, 150, 221), stop:1 rgba(105, 118, 132, 226));
+}
+#ogretmen_girisi:pressed{	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 200);
+}</string>
+                </property>
+                <property name="text">
+                 <string>ÖĞRETMEN GİRİŞİ</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="ogrenci_girisi">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <italic>false</italic>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#ogrenci_girisi{	
+   border-bottom:2px solid rgba(255,255,255,255);
+	color:rgba(255, 255, 255, 210);
+	border-radius:1px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));
+}
+#ogrenci_girisi:hover{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(114, 90, 150, 221), stop:1 rgba(105, 118, 132, 226));
+}
+#ogrenci_girisi:pressed{	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105, 118, 132, 200);
+}</string>
+                </property>
+                <property name="text">
+                 <string>ÖĞRENCİ GİRİŞİ</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="i_icon">
+                <property name="font">
+                 <font>
+                  <family>Social Media Circled</family>
+                  <pointsize>20</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(181, 107, 223);
+border-radius:12px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));</string>
+                </property>
+                <property name="text">
+                 <string>Q</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="w_icon">
+                <property name="font">
+                 <font>
+                  <family>Social Media Circled</family>
+                  <pointsize>20</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(60, 255, 1);
+border-radius:12px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));</string>
+                </property>
+                <property name="text">
+                 <string>L</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="y_icon">
+                <property name="font">
+                 <font>
+                  <family>Social Media Circled</family>
+                  <pointsize>20</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(170, 35, 8);
+border-radius:12px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));</string>
+                </property>
+                <property name="text">
+                 <string>P</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="t_icon">
+                <property name="font">
+                 <font>
+                  <family>Social Media Circled</family>
+                  <pointsize>20</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(43, 255, 28);
+border-radius: 12px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 0));</string>
+                </property>
+                <property name="text">
+                 <string>m</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="d.qrc"/>
+ </resources>
+ <connections/>
+</ui>
